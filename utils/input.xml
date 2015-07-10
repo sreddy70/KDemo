@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<credintials>
+		<username>sreddy70</username>
+		<password>Password1</password>
+		<baseUrl>http://54.174.226.65/</baseUrl>
+		<authUrl>rest/auth/1/session</authUrl>
+		<urls>
+			<url>
+				<link>
+					<value>rest/api/2/issue/$1/comment</value>
+					<param name="JiraIssueId"></param>
+				</link>
+				<body>
+					<value>{"body": "$1",    "visibility": {        "type": "role",        "value": "Administrators"    }}</value>
+					<param name="FromTeamCity"></param>
+				</body>			
+			</url>
+		</urls>
+	</credintials>
